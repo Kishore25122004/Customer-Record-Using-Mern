@@ -1,0 +1,26 @@
+/* CustomerList.css */
+.customer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-details {
+    flex-grow: 1;
+}
+
+.detail {
+    margin-bottom: 5px;
+}
+
+.customer-actions button {
+    margin-left: 10px;
+}
